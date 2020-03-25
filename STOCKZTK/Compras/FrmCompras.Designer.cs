@@ -30,9 +30,9 @@
         {
             this.btnBuscarP = new System.Windows.Forms.Button();
             this.panelCompra = new System.Windows.Forms.Panel();
-            this.dtFacturaC = new System.Windows.Forms.DateTimePicker();
-            this.label1 = new System.Windows.Forms.Label();
             this.txtProveedor = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.dtFacturaC = new System.Windows.Forms.DateTimePicker();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -65,14 +65,12 @@
             this.panelCompra.Size = new System.Drawing.Size(746, 125);
             this.panelCompra.TabIndex = 1;
             // 
-            // dtFacturaC
+            // txtProveedor
             // 
-            this.dtFacturaC.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtFacturaC.Location = new System.Drawing.Point(13, 13);
-            this.dtFacturaC.Name = "dtFacturaC";
-            this.dtFacturaC.Size = new System.Drawing.Size(97, 20);
-            this.dtFacturaC.TabIndex = 0;
-            this.dtFacturaC.Value = new System.DateTime(2020, 3, 18, 12, 19, 43, 0);
+            this.txtProveedor.Location = new System.Drawing.Point(12, 82);
+            this.txtProveedor.Name = "txtProveedor";
+            this.txtProveedor.Size = new System.Drawing.Size(220, 20);
+            this.txtProveedor.TabIndex = 2;
             // 
             // label1
             // 
@@ -83,12 +81,14 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Proveedor";
             // 
-            // txtProveedor
+            // dtFacturaC
             // 
-            this.txtProveedor.Location = new System.Drawing.Point(12, 82);
-            this.txtProveedor.Name = "txtProveedor";
-            this.txtProveedor.Size = new System.Drawing.Size(220, 20);
-            this.txtProveedor.TabIndex = 2;
+            this.dtFacturaC.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtFacturaC.Location = new System.Drawing.Point(13, 13);
+            this.dtFacturaC.Name = "dtFacturaC";
+            this.dtFacturaC.Size = new System.Drawing.Size(97, 20);
+            this.dtFacturaC.TabIndex = 0;
+            this.dtFacturaC.Value = new System.DateTime(2020, 3, 18, 12, 19, 43, 0);
             // 
             // button1
             // 
@@ -122,7 +122,7 @@
             this.gridCompra.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.gridCompra.Location = new System.Drawing.Point(0, 165);
             this.gridCompra.Name = "gridCompra";
-            this.gridCompra.Size = new System.Drawing.Size(746, 150);
+            this.gridCompra.Size = new System.Drawing.Size(746, 162);
             this.gridCompra.TabIndex = 5;
             // 
             // button4
